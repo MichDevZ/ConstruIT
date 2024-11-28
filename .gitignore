@@ -1,0 +1,49 @@
+# Ignorar dependencias de frontend (cliente)
+client/node_modules
+client/build
+client/dist
+client/package-lock.json
+client/yarn.lock
+client/.next
+.vs/
+Construit.sln
+
+# Ignorar archivos de configuración de entornos sensibles
+client/.env
+server/.env
+
+# Ignorar archivos temporales y de configuración de IDE
+.vscode/
+.idea/
+
+# Archivos de compilación y dependencias de .NET
+server/bin/
+server/obj/
+
+# Ignorar archivos de configuración específicos de .NET
+server/*.user
+server/*.suo
+server/*.userosscache
+server/*.sln.docstates
+
+# Ignorar archivos de prueba de .NET
+server/test-results/
+
+# Ignorar carpetas de publicación de .NET
+server/publish/
+
+# Ignorar archivos de la base de datos (si los tuvieses, como SQLite, etc.)
+server/*.db
+server/*.bak
+
+# Ignorar archivos generados por el build de .NET
+server/wwwroot/
+
+# Ignorar archivos temporales generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar cualquier archivo de compilación local que sea específico del entorno
+server/*.log
+server/*.log.*
+
